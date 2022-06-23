@@ -1,0 +1,80 @@
+{
+    "init": {
+        "answers": [
+            {"content": "Job Inquiry", "nextId": "job_offer"},
+            {"content": "I want to become an engineer", "nextId": "consultant"},
+            {"content": "How can I join your community?", "nextId": "community"},
+            {"content": "Would you like to have a coffee with me?", "nextId": "dating"}
+        ],
+        "question": "Hi there! How can I help you?"
+    },
+    "job_offer": {
+        "answers": [
+            {"content": "I need a website for my company", "nextId": "website"},
+            {"content": "I want to create app for mobile", "nextId": "webapp"},
+            {"content": "I need an automation system", "nextId": "automation_tool"},
+            {"content": "Other", "nextId": "other_jobs"}
+        ],
+        "question": "What kind of job？"
+    },
+    "website": {
+        "answers": [
+            {"content": "Discuss detail", "nextId": "contact"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please fill this form out about your website!"
+    },
+    "webapp": {
+        "answers": [
+            {"content": "Discuss detail", "nextId": "contact"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please fill this form out about your app!"
+    },
+    "automation_tool": {
+        "answers": [
+            {"content": "Discuss detail", "nextId": "contact"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please fill this form out about your automation system!"
+    },
+    "other_jobs": {
+        "answers": [
+            {"content": "Discuss detail", "nextId": "contact"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please fill this form out about your inquiry!"
+    },
+    "consultant": {
+        "answers": [
+            {"content": "Check this on YouTube", "nextId": "https://www.youtube.com"},
+            {"content": "I am interested in community", "nextId": "community"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "You can find the solution on YouTube, or you can join my community on Discord"
+    },
+    "community": {
+        "answers": [
+            {"content": "What kind of activity you have?", "nextId": "community_activity"},
+            {"content": "I would like to join your community", "nextId": "https://youtube.com"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please check our community on YouTube!"
+    },
+    "community_activity": {
+        "answers": [
+            {"content": "I would like to know detail", "nextId": "https://youtube.com"},
+            {"content": "I would like to join community", "nextId": "https://youtube.com"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Please check our community activity on youTube!"
+    },
+    "dating": {
+        "answers": [
+            {"content": "Send DM", "nextId": "https://youtube.com"},
+            {"content": "Return to first page", "nextId": "init"}
+        ],
+        "question": "Let's have a coffee tomorrow!"
+    }
+}
+
