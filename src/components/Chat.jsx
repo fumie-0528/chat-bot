@@ -3,7 +3,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import noProfile from '../assets/img/noProfile.png';
-import fumie from '../assets/img/fumie.png';
+import fumie from '../assets/img/fumie.jpeg';
 
 const Chat = (props) => {
     const isQuestion = (props.type === 'question');

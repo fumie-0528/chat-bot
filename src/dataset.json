@@ -6,7 +6,7 @@
             {"content": "How can I join your community?", "nextId": "community"},
             {"content": "Would you like to have a coffee with me?", "nextId": "dating"}
         ],
-        "question": "Hi there! How can I help you?"
+        "question": "Hi there! Welcome to inquiry page.  How can I help you?"
     },
     "job_offer": {
         "answers": [
@@ -71,7 +71,7 @@
     },
     "dating": {
         "answers": [
-            {"content": "Send DM", "nextId": "https://youtube.com"},
+            {"content": "Send DM", "nextId": "https://gmail.com"},
             {"content": "Return to first page", "nextId": "init"}
         ],
         "question": "Let's have a coffee tomorrow!"

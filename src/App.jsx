@@ -87,6 +87,7 @@ export default class App extends React.Component{
   render(){
     return (
       <section className="c-section">
+        <h1> Need Website? Ask me!</h1>
         <div className="c-box ">
           <Chats chats={this.state.chats}/>
           <AnswersList answers={this.state.answers} select={this.selectAnswer} />
