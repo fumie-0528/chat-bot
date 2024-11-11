@@ -2,7 +2,7 @@ import React from 'react';
 // import Button from '@mui/material/Button';
 // import Stack from '@mui/material/Stack';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import { Button } from '@mui/material';
 
 const useStyles = makeStyles(() => (
     createStyles({
